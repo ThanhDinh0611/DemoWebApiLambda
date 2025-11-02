@@ -17,5 +17,6 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/test", () => "This is a test endpoint.");
+app.MapGet("/demo-web-api", () => "Hello from /demo-web-api!");
 
 app.Run();
